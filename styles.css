@@ -120,6 +120,13 @@ img {
   opacity: 1;
 }
 
+.nav-phone {
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.14);
+  font-weight: 800;
+}
+
 .hero {
   position: relative;
   min-height: min(920px, 100svh);
@@ -464,6 +471,10 @@ h3 {
     place-items: center;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.08);
+  }
+
+  .nav-phone {
+    padding: 0;
   }
 
   .nav-toggle:checked ~ .nav {
